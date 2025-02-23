@@ -2,5 +2,9 @@
   "dependencies": {
     "express": "^4.21.2",
     "playwright": "^1.50.1"
+  },
+  "scripts": {
+    "install": "npx playwright install --with-deps",
+    "start": "node server.js"
   }
 }
